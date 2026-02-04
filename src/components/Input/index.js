@@ -1,12 +1,17 @@
 import React from "react";
-import {InputContainer} from "./styles";
+import { InputContainer } from "./styles";
 
-function Input() {
-    return (
-        <InputContainer>
-            <input type="text" placeholder="Search" />
-        </InputContainer>
-    )
+function Input({ value, onChange }) {
+  return (
+    <InputContainer>
+      <input
+        type="text"
+        placeholder="Search"
+        value={value}
+        onChange={onChange}
+      />
+    </InputContainer>
+  );
 }
 
-export default Input
+export default Input;
