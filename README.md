@@ -26,8 +26,7 @@ Projeto desenvolvido em **React** que permite buscar repositórios do GitHub, li
 ---
 
 ## 📂 Estrutura do Projeto
-PARA RODAR: npm install
-npm start
+PARA RODAR: npm install,     npm start
 
 ```bash
 src/
